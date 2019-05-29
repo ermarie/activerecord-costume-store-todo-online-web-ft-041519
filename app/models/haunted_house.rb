@@ -1,5 +1,5 @@
 # Create your HauntedHouse class here
-class HauntedHouse
+class HauntedHouse < ActiveRecord::Base
 
   attr_accessor :name, :location, :theme, :price, :family_friendly, :opening_date, :closing_date, :description
 
